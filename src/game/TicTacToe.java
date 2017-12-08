@@ -76,7 +76,14 @@ public class TicTacToe {
 
 
 	}
-
+	
+	/**
+	 * Testing git. Lets see if we can find the difference with git diff.
+	 *
+	 * @param playerInput
+	 * @param freeFields
+	 * @return
+	 */
 	private boolean detectMatches(int[] playerInput, List<int[]> freeFields) {
 		for (int[] field: freeFields) {
 			if(field[0] == playerInput[0]) {
